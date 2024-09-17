@@ -25,5 +25,5 @@
    ```bash
    bundle exec jekyll serve --livereload
    ```
-   > [!NOTE]  
-   > Do not edit files in the .jekyll-cache/ and \_site/ directories.
+> [!NOTE]  
+> Do not edit files in the .jekyll-cache/ and \_site/ directories.
