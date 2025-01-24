@@ -330,8 +330,8 @@ section {
   position: relative;
 }
 
-.experience-sub-title {
-  color: rgb(85, 85, 85);
+.skills-sub-title {
+  color: rgb(27, 27, 27);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
@@ -402,12 +402,13 @@ article .icon {
 .contact-info-upper-container {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   background: (250, 250, 250);
   margin: 2rem auto;
-  padding: 0.5rem;
+  padding: 1rem;
 }
 
 .contact-info-container {
@@ -434,9 +435,79 @@ article .icon {
 
 footer {
   height: 26vh;
-  margin: 0 1rem;
+  margin: 0 10rem;
 }
 
 footer p {
   text-align: center;
+}
+
+/* CERTIFICATIONS SECTION */
+#certifications {
+  height: 100vh;
+  text-align: center;
+  position: relative; /* Ensure this container is the positioning reference for the arrow */
+
+  padding-top: 3rem;
+}
+
+.certifications-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem; /* Adjust spacing between rows */
+  margin: 0; /* Ensure no extra margin is added */
+  padding-top: 1rem;
+}
+
+.cert-main {
+  margin-bottom: 1rem; /* Reduce space below the main certification */
+}
+
+.cert-row {
+  display: flex;
+  justify-content: center;
+  gap: 3rem; /* Adjust gap between sub-certifications */
+  margin: 0; /* Remove any unnecessary margin */
+  padding: 0;
+}
+
+/* Adjust Body Spacing (if needed) */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.cert-img-main {
+  width: 200px; /* Increased size for the main certification */
+  height: auto;
+}
+
+.cert-title {
+  margin-top: 0.5rem;
+  font-size: 1.4rem; /* Slightly larger font for the main certification title */
+  font-weight: bold;
+}
+
+.cert-sub {
+  width: 10rem;
+  text-align: center;
+}
+
+.cert-img-sub {
+  width: 130px; /* Increased size for sub-certifications */
+  height: auto;
+}
+
+.cert-title {
+  font-size: 1.1rem; /* Slightly larger font for sub-certification titles */
+}
+
+/* Pyramid Structure */
+.certifications-container {
+  position: relative;
+}
+
+.cert-row {
+  margin-top: -20px; /* Reduce overlap for a cleaner look */
 }
