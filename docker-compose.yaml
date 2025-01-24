@@ -1,0 +1,10 @@
+version: '3'
+services:
+  jekyll:
+    image: jekyll/jekyll:latest
+    volumes:
+      - .:/srv/jekyll
+    ports:
+      - "4000:4000" # For the Jekyll site
+      - "35729:35729" # For livereload
+    command: bash -c "gem install bundler:2.4.0 && bundle install && bundle exec jekyll serve --host 0.0.0.0 --livereload"
