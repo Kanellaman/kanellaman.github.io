@@ -511,3 +511,21 @@ body {
 .cert-row {
   margin-top: -20px; /* Reduce overlap for a cleaner look */
 }
+
+
+/* Mobile view for certs */
+@media (max-width: 768px) {
+  .cert-row {
+    flex-direction: column; /* Stack sub-certifications in a column */
+    align-items: center; /* Center items for a clean look */
+    gap: 1.5rem; /* Adjust spacing between items */
+  }
+
+  .cert-sub {
+    width: 100%; /* Allow items to take the full width */
+  }
+
+  .cert-img-sub {
+    width: 100px; /* Adjust image size for better mobile fit */
+  }
+}
