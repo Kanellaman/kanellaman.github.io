@@ -24,6 +24,17 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install PyPDF2
+        run: pip install PyPDF2
+
+      - name: Update PDF metadata
+        run: python resume_metadata.py
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
