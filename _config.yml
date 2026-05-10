@@ -21,3 +21,13 @@ highlighter: rouge
 # If you want to use a specific version of GitHub Pages, you can specify it here.
 # It ensures that you are using the same version locally as on GitHub Pages.
 github_pages_version: "~> 276" # Update this to the version you need or remove if not required
+
+# Exclude files/directories from the built site
+exclude:
+  - _knowledge_base
+  - docker-compose.yaml
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - QUICKSTART.md
+  - .github

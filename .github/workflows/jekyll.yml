@@ -34,7 +34,7 @@ jobs:
         run: pip install PyPDF2
 
       - name: Update PDF metadata
-        run: python resume-metadata.py
+        run: python _knowledge_base/scripts/resume-metadata.py
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
