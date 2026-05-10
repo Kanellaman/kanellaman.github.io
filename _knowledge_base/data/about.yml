@@ -1,0 +1,85 @@
+name: Konstantinos Kanellakis
+date_of_birth: "2002-06-18"
+gender: Male
+nationality: Greek
+
+contact:
+  email: kanellakhskostas@gmail.com
+  phone_cv_visibility: "on_request"  # phone shown as 'Phone on request' in public CV/site
+  location: Athens, Greece
+  website: https://kanellaman.github.io/
+  linkedin: https://www.linkedin.com/in/kanellakis-konstantinos
+  github: https://github.com/Kanellaman
+  tryhackme: https://tryhackme.com/p/kanellakhskostas
+  cryptohack: https://cryptohack.org/user/kanellam/
+
+summary: >-
+  DevOps & Security Engineer with hands-on experience in cloud infrastructure, CI/CD pipelines,
+  and Kubernetes. Currently pursuing an MSc in Information Systems Development and Security at
+  AUEB, with a growing focus on penetration testing, secure networks, and security engineering.
+
+bio:
+  short: >-
+    Cloud DevOps Engineer at Performance Technologies and MSc student in Information Security
+    at Athens University of Economics and Business. I focus on cloud engineering, CI/CD
+    pipelines, Kubernetes, and increasingly on security engineering and penetration testing.
+  long: >-
+    I graduated with a B.Sc. in Computer Science from the National and Kapodistrian University
+    of Athens and am currently pursuing an MSc in Information Systems Development and Security
+    at the Athens University of Economics and Business. I work as a Cloud DevOps Engineer at
+    Performance Technologies, focusing on Azure cloud infrastructure, Kubernetes, CI/CD
+    pipelines, and observability. I am increasingly drawn to the security side of engineering —
+    penetration testing, secure network design, and security-aware architecture. I practice
+    on TryHackMe and CryptoHack as part of my coursework and personal learning.
+
+title: DevOps & Security Engineer
+
+# Career focus — guides agent curation decisions for site and CV
+target_role: Cloud DevOps & Security Engineer
+career_focus:
+  - Kubernetes & container orchestration
+  - Azure cloud infrastructure
+  - CI/CD & automation
+  - Infrastructure as Code
+  - Monitoring & observability
+  - Penetration testing & security engineering
+  - Secure network design
+
+languages:
+  - language: Greek
+    level: Native
+  - language: English
+    level: C2
+    details:
+      listening: C2
+      reading: C2
+      writing: C2
+      spoken_production: C2
+      spoken_interaction: C2
+  - language: German
+    level: B1
+    certificate: "Goethe-Zertifikat B1 (2016)"
+    details:
+      listening: B1
+      reading: B1
+      writing: B1
+      spoken_production: B1
+      spoken_interaction: B1
+
+soft_skills:
+  - name: Effective Communication
+    description: >-
+      Effective communicator with the ability to convey technical concepts to both
+      technical and non-technical stakeholders.
+  - name: Collaborative
+    description: >-
+      A team player, thriving in cross-functional environments and contributing to
+      collective success.
+  - name: Leadership
+    description: >-
+      Proven leadership skills through involvement in group projects and extracurricular
+      activities.
+
+hobbies:
+  - Prototyping using Raspberry Pi
+  - PC Building and Troubleshooting

@@ -1,0 +1,58 @@
+- name: Certified Kubernetes Administrator (CKA)
+  issuer: CNCF / Linux Foundation
+  date: "2025"
+  link: https://www.credly.com/badges/1ec6495d-b9e4-4c78-ac68-b08f13472aa2/public_url
+  badge_asset: CKA.png
+  site: true
+  cv: true
+
+- name: Azure Administrator Associate (AZ-104)
+  issuer: Microsoft
+  date: "2025"
+  link: https://learn.microsoft.com/api/credentials/share/en-us/KonstantinosKanellakis-7590/453C597D25F35E0D?sharingId=9443E5488F83DC5A
+  badge_asset: Associate.svg
+  site: true
+  cv: true
+
+- name: GitHub Foundations
+  issuer: GitHub
+  date: "2025"
+  link: https://www.credly.com/badges/7253bd7f-0758-4403-8a37-af53e6a69d0e/linked_in_profile
+  badge_asset: Github_Foundations.png
+  site: true
+  cv: true
+
+- name: Security, Compliance, and Identity Fundamentals (SC-900)
+  issuer: Microsoft
+  date: "2024"
+  link: https://learn.microsoft.com/api/credentials/share/en-us/KonstantinosKanellakis-7590/CB65591A4C4B30A3?sharingId=9443E5488F83DC5A
+  badge_asset: Fundamentals.svg
+  site: true
+  cv: true
+
+- name: Azure Fundamentals (AZ-900)
+  issuer: Microsoft
+  date: "2024"
+  link: https://learn.microsoft.com/api/credentials/share/en-us/KonstantinosKanellakis-7590/86765207ADE2618B?sharingId=9443E5488F83DC5A
+  badge_asset: Fundamentals.svg
+  site: true
+  cv: true
+
+- name: "Certificate of Completion: Python and Django Full Stack Web Developer Bootcamp"
+  issuer: Udemy
+  date: "2023"
+  link: https://www.udemy.com/certificate/UC-ce166edc-c45d-4211-b191-8d4d86d31651/
+  site: false
+  cv: false
+
+- id: goethe_b1
+  name: "Goethe-Zertifikat B1"
+  issuer: "Goethe-Institut"
+  issuer_url: "https://www.goethe.de"
+  date: "2016"
+  verify_url: ""
+  badge_image: ""
+  description: "Official German language proficiency certificate at B1 (intermediate) level, issued by the Goethe-Institut."
+  category: Language
+  site: false
+  cv: true

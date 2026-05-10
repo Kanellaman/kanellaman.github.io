@@ -1,0 +1,113 @@
+ABOUT MYSELF
+Cloud DevOps Engineer, passionate about software development, cybersecurity, and
+DevOps. Eager to explore emerging technologies such as Kubernetes, IaC, Docker, and
+cloud computing. Currently seeking opportunities to enhance skills through seminars and
+courses.
+WORK EXPERIENCE
+Performance Technologies S.A.
+City: Athens | Country: Greece
+[ 10/2024 – Current ] Cloud DevOps Engineer
+• Cloud Infrastructure Management: Managing and maintaining cloud resources
+primarily on Microsoft Azure, including networking, compute, storage, and
+security configurations.
+• Kubernetes (AKS): Operating and maintaining Azure Kubernetes Service (AKS)
+clusters, including deployments, scaling, upgrades, and troubleshooting of
+microservices.
+• CI/CD Pipelines: Designing and maintaining CI/CD pipelines using GitHub
+Actions, Azure DevOps Pipelines, and occasionally other tools for automated
+builds, tests, and deployments.
+• Monitoring & Observability: Implementing and managing monitoring/logging
+solutions with the Elastic Stack (ELK), including custom dashboards, alerting rules,
+and log retention strategies.
+CoreNetworks
+[ 10/2023 – 08/2024 ] DevOps Engineer
+• Developed and maintained backend systems using Python and Django, ensuring
+high performance, reliability, and scalability.
+• Implemented DevOps best practices, including CI/CD pipelines, automated
+testing, and scripting using Bash and Python.
+• Oversaw the entire application development lifecycle, from development to
+deployment, using CI/CD pipelines integrated with the GitHub API.
+EDUCATION AND TRAIN‐
+ING
+[ 10/2020 – 10/2024 ] Major in Computer Science
+National Kapodistrian University of Athens www.di.uoa.gr
+Field(s) of study: Information and Communication Technologies (ICTs) | Final grade: 8.
+3 / 10
+Completed numerous projects (available on GitHub) with a strong focus on C and Python,
+supplemented by Java and C++, delivering efficient coding solutions across multiple
+programming paradigms. Proficient in database design and operating systems for
+effective data and resource management.
+Demonstrated expertise in computer architecture, system design, and systems
+programming, enabling a deeper understanding of system-level software development.
+KONSTANTINOS KANELLAKIS
+Gender: Male Date of birth: 18/06/2002 Nationality: Greek
+ Home : Athens, Greece
+ Email: kanellakhskostas@gmail.com  Phone: [REDACTED]
+ Website: https://kanellaman.github.io/  LinkedIn: www.linkedin.com/in/kanellakis-konstantinos
+ Github: https://github.com/Kanellaman
+Other language(s):
+English
+LISTENING C2 READING C2 WRITING C2
+SPOKEN PRODUCTION C2 SPOKEN INTERACTION C2
+German
+LISTENING B1 READING B1 WRITING B1
+SPOKEN PRODUCTION B1 SPOKEN INTERACTION B1
+Skilled in debugging, optimizing, and maintaining code for diverse software applications,
+showcasing versatility and problem-solving abilities.
+High School Diploma
+6th General High School of Nea Ionia, Athens
+| Final grade: 19.9 / 20.0
+Participated in high school robotics competition-WRO as a member of a four-person team
+during my first year of high school. Our team's goal was to build a greenhouse that is
+autonomous, using a solar panel for electricity and sensors to monitor the plants via a
+website
+LANGUAGE SKILLS
+Mother tongue(s): Greek
+Levels: A1 and A2: Basic user - B1 and B2: Independent user - C1 and C2: Proficient user
+TECH SKILLS
+Cloud Services
+Certified in Microsoft Azure (AZ-104) with hands-on experience in core Azure services.
+AWS: Basic use of EC2 instance, elastic IP, VPC etc.
+Exposure to Terraform and Bicep for writing and managing infrastructure as code in
+Azure.
+Built CI/CD pipelines using GitHub Actions and Azure DevOps.
+Managed workloads on Azure Kubernetes Service (AKS); currently preparing for CKA
+certification.
+Google Drive, OneDrive for File Management
+Modern Tools and Practices
+Version Control: Git, GitHub
+Agile Practices: Scrum, Kanban, Monday.com
+Docker: Docker-Compose,deploy and manage containers
+Programming Languages
+• C/C++,Java, C#
+• Python,Javacript,Shell Scripting
+• SQL (MySQL, PostgreSQL)
+Operating Systems
+Windows
+Linux (Ubuntu, Debian, CentOS)
+CERTIFICATIONSCOURSES
+[ 2025 ] Azure Administrator Associate (AZ-104)
+Link: https://learn.microsoft.com/api/credentials/share/en-us/
+KonstantinosKanellakis-7590/453C597D25F35E0D?sharingId=9443E5488F83DC5A
+[ 2025 ] GitHub Foundations
+Link: https://www.credly.com/badges/7253bd7f-0758-4403-8a37-af53e6a69d0e/
+linked_in_profile
+[ 2024 ] Security, Compliance, and Identity Fundamentals (SC-900)
+Link: https://learn.microsoft.com/api/credentials/share/en-us/
+KonstantinosKanellakis-7590/CB65591A4C4B30A3?sharingId=9443E5488F83DC5A
+[ 2024 ] Azure Fundamentals (AZ-900)
+[ 2023 ] Certificate of Completion: Python and Django Full Stack Web Developer Bootcamp
+Link: https://www.udemy.com/certificate/UC-ce166edc-c45d-4211-b191-8d4d86d31651/
+HOBBIES AND INTERESTS
+Prototyping using Raspberry Pi,PC Building and Troubleshooting
+COMMUNICATION AND
+INTERPERSONAL SKILLS
+Effective Communication
+Effective communicator with the ability to convey technical concepts to both technical and
+non-technical stakeholders.
+Collaborative
+A team player, thriving in cross-functional environments and contributing to collective
+success.
+Leadership
+Proven leadership skills through involvement in group projects and extracurricular
+activities.

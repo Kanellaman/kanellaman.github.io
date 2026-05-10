@@ -1,0 +1,46 @@
+# Learning Timeline
+# Chronological milestones in learning and professional development
+
+- date: "2020-10"
+  milestone: Started B.Sc. in Computer Science at NKUA
+  category: education
+
+- date: "2023"
+  milestone: Completed Python and Django Full Stack Web Developer Bootcamp (Udemy)
+  category: certification
+
+- date: "2023-10"
+  milestone: Started as DevOps Engineer at CoreNetworks
+  category: career
+
+- date: "2024"
+  milestone: Earned Azure Fundamentals (AZ-900) certification
+  category: certification
+
+- date: "2024"
+  milestone: Earned Security, Compliance, and Identity Fundamentals (SC-900) certification
+  category: certification
+
+- date: "2024-08"
+  milestone: Left CoreNetworks
+  category: career
+
+- date: "2024-10"
+  milestone: Graduated from NKUA with B.Sc. in Computer Science (8.3/10)
+  category: education
+
+- date: "2024-10"
+  milestone: Started as Cloud DevOps Engineer at Performance Technologies S.A.
+  category: career
+
+- date: "2025"
+  milestone: Earned Azure Administrator Associate (AZ-104) certification
+  category: certification
+
+- date: "2025"
+  milestone: Earned GitHub Foundations certification
+  category: certification
+
+- date: "2025"
+  milestone: Earned Certified Kubernetes Administrator (CKA) certification
+  category: certification

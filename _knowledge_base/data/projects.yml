@@ -1,0 +1,27 @@
+- name: MyShell
+  description: A Bash-like shell implementation
+  image_asset: myShell.png
+  github: https://github.com/Kanellaman/mysh-A-Bash-like-Shell-Implementation
+  demo: https://hub.docker.com/repository/docker/kanellaman/mysh-app/general
+  featured: true
+  site: true
+  cv: true
+
+- name: "Berkeley's PacMan Projects"
+  description: AI projects from Berkeley's CS188 course
+  image_asset: giphy.webp
+  github: https://github.com/Kanellaman/AI-The-Pacman-Projects-cs188-Berkeley
+  demo: null
+  featured: true
+  site: true
+  cv: false
+  reference: https://ai.berkeley.edu/project_overview.html
+
+- name: Voting System
+  description: A voting system application
+  image_asset: Voting_system.jpg
+  github: https://github.com/Kanellaman/Voting-System
+  demo: null
+  featured: true
+  site: true
+  cv: false

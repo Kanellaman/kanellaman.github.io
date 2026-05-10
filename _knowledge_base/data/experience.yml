@@ -1,0 +1,42 @@
+- company: Performance Technologies S.A.
+  city: Athens
+  country: Greece
+  role: Cloud DevOps Engineer
+  start_date: "2024-10"
+  end_date: current
+  site: true
+  cv: true
+  responsibilities:
+    - >-
+      Cloud Infrastructure Management: Managing and maintaining cloud resources
+      primarily on Microsoft Azure, including networking, compute, storage, and
+      security configurations.
+    - >-
+      Kubernetes (AKS): Operating and maintaining Azure Kubernetes Service (AKS)
+      clusters, including deployments, scaling, upgrades, and troubleshooting of
+      microservices.
+    - >-
+      CI/CD Pipelines: Designing and maintaining CI/CD pipelines using GitHub
+      Actions, Azure DevOps Pipelines, and occasionally other tools for automated
+      builds, tests, and deployments.
+    - >-
+      Monitoring & Observability: Implementing and managing monitoring/logging
+      solutions with the Elastic Stack (ELK), including custom dashboards, alerting
+      rules, and log retention strategies.
+
+- company: CoreNetworks
+  role: DevOps Engineer
+  start_date: "2023-10"
+  end_date: "2024-08"
+  site: true
+  cv: true
+  responsibilities:
+    - >-
+      Developed and maintained backend systems using Python and Django, ensuring
+      high performance, reliability, and scalability.
+    - >-
+      Implemented DevOps best practices, including CI/CD pipelines, automated
+      testing, and scripting using Bash and Python.
+    - >-
+      Oversaw the entire application development lifecycle, from development to
+      deployment, using CI/CD pipelines integrated with the GitHub API.

@@ -1,0 +1,52 @@
+- degree: "MSc in Information Systems Development and Security"
+  institution: Athens University of Economics and Business
+  website: https://www.aueb.gr
+  field: Computer Science — Information Systems Development and Security
+  start_date: "2025-09"
+  end_date: current
+  site: true
+  cv: true
+  focus:
+    - Penetration testing
+    - Secure networks
+    - Information security
+  description: >-
+    Focused on information security engineering and system development. Core topics include
+    penetration testing methodology, secure network design, cryptography, vulnerability
+    assessment, and security-aware software architecture. Practical coursework involves
+    hands-on labs using TryHackMe and CryptoHack platforms. The programme bridges software
+    engineering and offensive/defensive security disciplines.
+  coursework:
+    - Penetration Testing Methodology
+    - Network Security & Secure Design
+    - Cryptography & Applied Crypto (CryptoHack)
+    - Vulnerability Assessment & Exploitation
+    - Security-Aware Software Architecture
+
+- degree: "Major in Computer Science"
+  institution: National Kapodistrian University of Athens
+  website: https://www.di.uoa.gr
+  field: Information and Communication Technologies (ICTs)
+  start_date: "2020-10"
+  end_date: "2024-10"
+  grade: "8.3 / 10"
+  highlights:
+    - Systems programming in C (shell implementation, OS-level projects)
+    - Algorithms, data structures, and computational theory
+    - Operating systems and computer architecture
+    - Database design with SQL (MySQL, PostgreSQL)
+    - AI/ML coursework — Berkeley's CS188 PacMan project series
+    - Networks and distributed systems
+  description: >-
+    Strong foundation in computer science fundamentals with emphasis on systems
+    programming (C, Python), algorithms, operating systems, database design, and
+    AI/ML. Numerous practical GitHub projects spanning multiple paradigms.
+
+- degree: High School Diploma
+  institution: 6th General High School of Nea Ionia, Athens
+  grade: "19.9 / 20.0"
+  description: >-
+    Participated in high school robotics competition-WRO as a member of a four-person team
+    during my first year of high school. Our team's goal was to build a greenhouse that is
+    autonomous, using a solar panel for electricity and sensors to monitor the plants via a
+    website.

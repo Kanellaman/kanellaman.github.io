@@ -1,0 +1,102 @@
+# Tools & Technologies
+# Detailed context about each tool/technology beyond just skill level
+# This provides richer information for CV and site content generation
+
+- name: Microsoft Azure
+  category: Cloud
+  experience_since: "2024"
+  certified: true
+  certifications: [AZ-900, AZ-104, SC-900]
+  context: >-
+    Primary cloud platform at Performance Technologies. Manage networking, compute,
+    storage, and security configurations. Experience with AKS, Azure DevOps, and
+    various Azure services.
+
+- name: Kubernetes
+  category: Container Orchestration
+  experience_since: "2024"
+  certified: true
+  certifications: [CKA]
+  context: >-
+    Operating and maintaining AKS clusters including deployments, scaling, upgrades,
+    and troubleshooting of microservices. Holds CKA certification.
+
+- name: Docker
+  category: Containerization
+  experience_since: "2023"
+  context: >-
+    Docker and Docker-Compose for deploying and managing containers. Used in both
+    development and production environments.
+
+- name: GitHub Actions
+  category: CI/CD
+  experience_since: "2023"
+  context: >-
+    Building and maintaining CI/CD pipelines for automated builds, tests, and
+    deployments. Used at both CoreNetworks and Performance Technologies.
+
+- name: Elastic Stack (ELK)
+  category: Monitoring
+  experience_since: "2024"
+  context: >-
+    Implemented and managed at Performance Technologies. Custom dashboards, alerting
+    rules, log retention strategies for microservices running on AKS.
+
+- name: Terraform
+  category: IaC
+  experience_since: "2024"
+  context: Writing and managing infrastructure as code in Azure.
+
+- name: Bicep
+  category: IaC
+  experience_since: "2024"
+  context: Azure-native IaC for resource provisioning.
+
+- name: Python
+  category: Programming
+  experience_since: "2020"
+  context: >-
+    Used extensively throughout university and professional career. Backend development
+    with Django, scripting, automation, and DevOps tooling.
+
+- name: Django
+  category: Web Framework
+  experience_since: "2023"
+  context: Backend development at CoreNetworks, completed Udemy bootcamp.
+
+- name: Penetration Testing
+  category: Security
+  experience_since: "2025"
+  context: >-
+    Studying penetration testing as part of MSc in Information Systems Development and Security
+    at AUEB. Practising on TryHackMe (https://tryhackme.com/p/kanellakhskostas) and CryptoHack
+    (https://cryptohack.org/user/kanellam/) platforms, used for course assignments.
+
+- name: Nmap
+  category: Security Tools
+  experience_since: "2025"
+  context: >-
+    Network scanning and enumeration. Used in MSc coursework for host discovery,
+    port scanning, and service version detection.
+
+- name: Burp Suite
+  category: Security Tools
+  experience_since: "2025"
+  context: >-
+    Web application security testing. Used for intercepting HTTP traffic, identifying
+    OWASP Top 10 vulnerabilities, and web pentesting labs.
+
+- name: Wireshark
+  category: Security Tools
+  experience_since: "2025"
+  context: Network protocol analysis and traffic inspection. Used in MSc networking security labs.
+
+- name: Metasploit / Exploitation frameworks
+  category: Security Tools
+  experience_since: "2025"
+  context: Exposure through TryHackMe rooms and MSc coursework.
+
+- name: Notion
+  category: Productivity / Project Management
+  experience_since: "2024"
+  context: Personal project management and knowledge tracking.
