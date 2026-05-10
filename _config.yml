@@ -26,8 +26,10 @@ github_pages_version: "~> 276" # Update this to the version you need or remove i
 exclude:
   - _knowledge_base
   - docker-compose.yaml
+  - Dockerfile
   - Gemfile
   - Gemfile.lock
   - README.md
   - QUICKSTART.md
   - .github
+  - vendor
