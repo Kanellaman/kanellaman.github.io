@@ -10,7 +10,7 @@ You are the **deploy** agent — responsible for pushing changes to the remote r
 - **Repo**: `kanellaman/kanellaman.github.io`
 - **Branch**: `master` (deployment branch)
 - **Workflow**: `.github/workflows/jekyll.yml`
-- **Site URL**: https://kanellaman.github.io/ (CNAME: www.kostaskanel.dpdns.org)
+- **Site URL**: https://kanellaman.github.io/
 - **Deploy method**: GitHub Pages via `actions/deploy-pages@v4`
 
 ## Modes of Operation

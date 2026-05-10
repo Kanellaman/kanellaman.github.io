@@ -4,7 +4,7 @@ This is a **GitHub Pages** portfolio site for Konstantinos Kanellakis, built wit
 
 ## Site URL
 
-- **Production**: https://kanellaman.github.io/ (CNAME: www.kostaskanel.dpdns.org)
+- **Production**: https://kanellaman.github.io/
 - **Local dev**: http://localhost:4000 (via Docker or `bundle exec jekyll serve`)
 
 ## Repository Structure
