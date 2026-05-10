@@ -1,5 +1,5 @@
 - name: MyShell
-  description: A Bash-like shell implementation
+  description: Unix-style shell implemented in C, supporting pipes, I/O redirection, background process execution, signal handling, and job control. Demonstrates systems programming depth at the OS/kernel interface level, implementing standard Unix shell behaviour from scratch.
   image_asset: myShell.png
   github: https://github.com/Kanellaman/mysh-A-Bash-like-Shell-Implementation
   demo: https://hub.docker.com/repository/docker/kanellaman/mysh-app/general
@@ -8,7 +8,7 @@
   cv: true
 
 - name: "Berkeley's PacMan Projects"
-  description: AI projects from Berkeley's CS188 course
+  description: Multi-agent AI projects from UC Berkeley's CS188 course, implementing classical search (BFS, DFS, A*), Bayesian inference, and reinforcement learning in a competitive game environment. Covers core AI algorithm design with performance evaluation under adversarial conditions.
   image_asset: giphy.webp
   github: https://github.com/Kanellaman/AI-The-Pacman-Projects-cs188-Berkeley
   demo: null
@@ -18,7 +18,7 @@
   reference: https://ai.berkeley.edu/project_overview.html
 
 - name: Voting System
-  description: A voting system application
+  description: Full-stack secure voting application with a Python/Django backend, implementing user authentication, ballot integrity enforcement, and access-controlled vote submission and tallying.
   image_asset: Voting_system.jpg
   github: https://github.com/Kanellaman/Voting-System
   demo: null

@@ -76,6 +76,16 @@
   v(0.05em)
 }
 
+// ── Certification entry (no link) ─────────────────────────────────────────────
+#let cert_entry_nolink(name, issuer, date) = {
+  grid(
+    columns: (1fr, auto),
+    [• #name — #text(fill: muted, issuer)],
+    text(fill: muted, date)
+  )
+  v(0.05em)
+}
+
 // ════════════════════════════════════════════════════════════════════════════
 // HEADER
 // ════════════════════════════════════════════════════════════════════════════
@@ -110,7 +120,7 @@
 // SUMMARY
 // ════════════════════════════════════════════════════════════════════════════
 #section("Summary")
-DevOps & Security Engineer with hands-on experience in cloud infrastructure, CI/CD pipelines, and Kubernetes. Currently pursuing an MSc in Information Systems Development and Security at AUEB, with a growing focus on penetration testing, secure networks, and security engineering.
+DevOps & Security Engineer with hands-on experience operating Azure and Kubernetes infrastructure, building CI/CD systems, and supporting cloud-native workloads. Strong systems and software engineering foundation in Linux, networking, backend development, and distributed systems, with a growing specialization in security engineering, secure infrastructure, and offensive security.
 
 // ════════════════════════════════════════════════════════════════════════════
 // EXPERIENCE
@@ -123,10 +133,10 @@ DevOps & Security Engineer with hands-on experience in cloud infrastructure, CI/
   "Oct 2024 – Present",
   "Athens, Greece",
   (
-    "Cloud Infrastructure Management: Managing and maintaining cloud resources on Microsoft Azure, including networking, compute, storage, and security configurations.",
-    "Kubernetes (AKS): Operating and maintaining Azure Kubernetes Service clusters, including deployments, scaling, upgrades, and troubleshooting of microservices.",
-    "CI/CD Pipelines: Designing and maintaining automated pipelines using GitHub Actions and Azure DevOps Pipelines for builds, tests, and deployments.",
-    "Monitoring & Observability: Implementing and managing monitoring/logging with the Elastic Stack (ELK), including custom dashboards, alerting rules, and log retention strategies.",
+    "Operated Azure cloud infrastructure across networking, compute, storage, and security — configuring VNets, NSGs, Key Vault, managed identities, and role-based access controls.",
+    "Managed AKS cluster lifecycle including node pool scaling, version upgrades, workload deployments, rolling updates, and production troubleshooting of containerised microservices.",
+    "Built and maintained CI/CD pipelines with GitHub Actions and Azure DevOps Pipelines, automating build, test, and deployment workflows across multiple environments.",
+    "Deployed and configured Elastic Stack (ELK) for centralised log ingestion, built custom dashboards, defined alerting rules, and tuned log retention strategies across services.",
   )
 )
 
@@ -138,9 +148,9 @@ DevOps & Security Engineer with hands-on experience in cloud infrastructure, CI/
   "Oct 2023 – Aug 2024",
   "Greece",
   (
-    "Developed and maintained backend systems using Python and Django, ensuring high performance, reliability, and scalability.",
-    "Implemented DevOps best practices including CI/CD pipelines, automated testing, and scripting using Bash and Python.",
-    "Managed the full application development lifecycle from development to deployment using CI/CD pipelines integrated with the GitHub API.",
+    "Developed and maintained Python/Django backend services, implementing REST APIs and data models for production workloads.",
+    "Built CI/CD workflows integrating GitHub Actions and the GitHub API, automating build, test, and deployment pipelines from commit to production.",
+    "Automated operational tasks using Bash and Python scripts, reducing manual overhead across development and deployment workflows.",
   )
 )
 
@@ -174,11 +184,11 @@ DevOps & Security Engineer with hands-on experience in cloud infrastructure, CI/
 // ════════════════════════════════════════════════════════════════════════════
 #section("Technical Skills")
 
-#skill_row("Cloud & IaC", "Azure (Advanced) · Kubernetes (Advanced) · Docker (Intermediate) · Terraform (Intermediate) · Bicep (Beginner) · AWS (Beginner)")
-#skill_row("DevOps & CI/CD", "GitHub Actions · Azure DevOps Pipelines · Git (Advanced) · Bash Scripting (Experienced) · Python (Experienced)")
-#skill_row("Security", "Nmap · Burp Suite · OWASP Top 10 · Vulnerability Assessment · Cryptography · Linux Privilege Escalation · Secure Network Design · CTF (TryHackMe)")
-#skill_row("Programming", "Python (Experienced) · C/C++ (Experienced) · Java (Intermediate) · Shell Scripting (Experienced) · SQL — MySQL, PostgreSQL · JavaScript")
-#skill_row("Systems & Tools", "Linux — Ubuntu, Debian, CentOS (Advanced) · Windows (Advanced) · Docker Compose · Scrum / Kanban")
+#skill_row("Cloud & Platform", "Azure (VMs, Networking, Key Vault, Storage, IAM) · AKS / Kubernetes · Docker · Terraform · Bicep")
+#skill_row("CI/CD & Automation", "Azure DevOps Pipelines · GitHub Actions · Git · Bash & Shell Scripting · Python")
+#skill_row("Observability", "Elastic Stack (ELK) · Log ingestion & retention · Custom dashboards & alerting")
+#skill_row("Security", "Web App Testing (Burp Suite, OWASP Top 10) · Network Scanning (Nmap, Netcat) · Vulnerability Assessment · Linux Privilege Escalation · Cryptography & Applied Crypto · Secure Network Design")
+#skill_row("Systems & Programming", "Linux (Ubuntu, Debian, CentOS) · C / C++ · Python · SQL (MySQL, PostgreSQL) · Networking & Distributed Systems")
 
 // ════════════════════════════════════════════════════════════════════════════
 // CERTIFICATIONS
@@ -215,6 +225,14 @@ DevOps & Security Engineer with hands-on experience in cloud infrastructure, CI/
   "2024",
   "https://learn.microsoft.com/api/credentials/share/en-us/KonstantinosKanellakis-7590/86765207ADE2618B?sharingId=9443E5488F83DC5A"
 )
+
+// ════════════════════════════════════════════════════════════════════════════
+// PROJECTS
+// ════════════════════════════════════════════════════════════════════════════
+#section("Projects")
+
+*MyShell* — #link("https://github.com/Kanellaman/mysh-A-Bash-like-Shell-Implementation")[GitHub Link]
+Unix-style shell implemented in C, supporting pipes, I/O redirection, background process execution, signal handling, and job control. Demonstrates systems programming depth at the OS/kernel interface level, implementing standard Unix shell behaviour from scratch.
 
 // ════════════════════════════════════════════════════════════════════════════
 // LANGUAGES

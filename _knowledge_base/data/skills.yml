@@ -1,102 +1,89 @@
 categories:
-  - name: DevOps Tools
+  - name: Cloud & Platform
     site: true
     cv: true
     skills:
-      - name: Python
+      - name: "Azure (VMs, Networking, Key Vault, Storage, IAM)"
+        level: Advanced
+      - name: AKS / Kubernetes
+        level: Advanced
+      - name: Docker
         level: Experienced
-      - name: "CI/CD Pipelines (GitHub & ADO)"
+      - name: Terraform
+        level: Intermediate
+      - name: Bicep
+        level: Intermediate
+
+  - name: CI/CD & Automation
+    site: true
+    cv: true
+    skills:
+      - name: Azure DevOps Pipelines
+        level: Experienced
+      - name: GitHub Actions
         level: Experienced
       - name: Git
         level: Advanced
-
-  - name: Frontend and Backend Development
-    site: false
-    cv: false
-    skills:
-      - name: HTML
-        level: Experienced
-      - name: CSS
-        level: Experienced
-      - name: JavaScript
-        level: Beginner
-      - name: Node.js
-        level: Intermediate
-      - name: Django
-        level: Experienced
-
-  - name: Scripting
-    site: true
-    cv: true
-    skills:
       - name: Bash & Shell Scripting
         level: Experienced
       - name: Python
         level: Experienced
 
-  - name: Cloud Engineering & IaC
+  - name: Observability
     site: true
     cv: true
     skills:
-      - name: Azure
-        level: Advanced
-      - name: AWS
-        level: Beginner
-      - name: Terraform
-        level: Intermediate
-      - name: Bicep
-        level: Beginner
-      - name: Docker
-        level: Intermediate
-      - name: Kubernetes
-        level: Advanced
+      - name: Elastic Stack (ELK)
+        level: Experienced
+      - name: Log ingestion & retention
+        level: Experienced
+      - name: Custom dashboards & alerting
+        level: Experienced
 
   - name: Security
     site: true
     cv: true
     skills:
-      - name: Network Scanning & Enumeration (Nmap, Netcat)
+      - name: "Web App Testing (Burp Suite, OWASP Top 10)"
         level: Intermediate
-      - name: Web Application Pentesting (Burp Suite, OWASP Top 10)
-        level: Intermediate
-      - name: Cryptography & Crypto Challenges
+      - name: "Network Scanning (Nmap, Netcat)"
         level: Intermediate
       - name: Vulnerability Assessment
         level: Intermediate
       - name: Linux Privilege Escalation
         level: Intermediate
+      - name: Cryptography & Applied Crypto
+        level: Intermediate
       - name: Secure Network Design
         level: Intermediate
-      - name: CTF Competitions (TryHackMe)
-        level: Intermediate
 
-  - name: Programming Languages
+  - name: Systems & Programming
     site: false
     cv: true
     skills:
-      - name: C/C++
+      - name: "Linux (Ubuntu, Debian, CentOS)"
+        level: Advanced
+      - name: C / C++
         level: Experienced
-      - name: Java
-        level: Intermediate
-      - name: "C#"
-        level: Beginner
       - name: Python
         level: Experienced
-      - name: JavaScript
-        level: Beginner
-      - name: Shell Scripting
-        level: Experienced
-      - name: SQL (MySQL, PostgreSQL)
+      - name: "SQL (MySQL, PostgreSQL)"
+        level: Intermediate
+      - name: Networking & Distributed Systems
         level: Intermediate
 
-  - name: Operating Systems
+  - name: Frontend and Backend Development
     site: false
-    cv: true
+    cv: false
     skills:
-      - name: Windows
-        level: Advanced
-      - name: Linux (Ubuntu, Debian, CentOS)
-        level: Advanced
+      - name: Django
+        level: Experienced
+      - name: HTML
+        level: Experienced
+      - name: CSS
+        level: Experienced
+      - name: JavaScript
+        level: Intermediate
 
   - name: Modern Tools and Practices
     site: false

@@ -14,36 +14,38 @@ contact:
   cryptohack: https://cryptohack.org/user/kanellam/
 
 summary: >-
-  DevOps & Security Engineer with hands-on experience in cloud infrastructure, CI/CD pipelines,
-  and Kubernetes. Currently pursuing an MSc in Information Systems Development and Security at
-  AUEB, with a growing focus on penetration testing, secure networks, and security engineering.
+  DevOps & Security Engineer with hands-on experience operating Azure and Kubernetes infrastructure,
+  building CI/CD systems, and supporting cloud-native workloads. Strong systems and software
+  engineering foundation in Linux, networking, backend development, and distributed systems, with a
+  growing specialization in security engineering, secure infrastructure, and offensive security.
 
 bio:
   short: >-
-    Cloud DevOps Engineer at Performance Technologies and MSc student in Information Security
-    at Athens University of Economics and Business. I focus on cloud engineering, CI/CD
-    pipelines, Kubernetes, and increasingly on security engineering and penetration testing.
+    Cloud DevOps Engineer at Performance Technologies and MSc student in Information Security at
+    AUEB. Operating Azure infrastructure, AKS clusters, CI/CD pipelines, and ELK observability,
+    with a growing focus on security engineering and offensive security.
   long: >-
-    I graduated with a B.Sc. in Computer Science from the National and Kapodistrian University
-    of Athens and am currently pursuing an MSc in Information Systems Development and Security
-    at the Athens University of Economics and Business. I work as a Cloud DevOps Engineer at
-    Performance Technologies, focusing on Azure cloud infrastructure, Kubernetes, CI/CD
-    pipelines, and observability. I am increasingly drawn to the security side of engineering —
-    penetration testing, secure network design, and security-aware architecture. I practice
-    on TryHackMe and CryptoHack as part of my coursework and personal learning.
+    I graduated with a B.Sc. in Computer Science from the National and Kapodistrian University of
+    Athens and am currently pursuing an MSc in Information Systems Development and Security at AUEB.
+    I work as a Cloud DevOps Engineer at Performance Technologies, operating Azure infrastructure,
+    managing AKS clusters, building CI/CD pipelines, and configuring ELK-based observability. My
+    background in Linux, systems programming, networking, and distributed systems gives me the
+    engineering foundations I am now extending into security — penetration testing, vulnerability
+    assessment, secure network design, and cryptography — through MSc coursework, TryHackMe, and
+    CryptoHack.
 
 title: DevOps & Security Engineer
 
 # Career focus — guides agent curation decisions for site and CV
-target_role: Cloud DevOps & Security Engineer
+target_role: DevOps / Platform / Cloud Security Engineer
 career_focus:
-  - Kubernetes & container orchestration
-  - Azure cloud infrastructure
-  - CI/CD & automation
-  - Infrastructure as Code
-  - Monitoring & observability
-  - Penetration testing & security engineering
-  - Secure network design
+  - Azure cloud infrastructure & platform engineering
+  - AKS / Kubernetes lifecycle & operations
+  - CI/CD & automation pipelines
+  - Infrastructure as Code (Terraform, Bicep)
+  - Monitoring, observability & ELK
+  - Security engineering & secure infrastructure
+  - Offensive security & penetration testing
 
 languages:
   - language: Greek

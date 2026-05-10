@@ -12,7 +12,7 @@
   description: "Years of experience shown in the About section card"
   location: _includes/about.html, line ~13
   value: "2+ years"
-  last_verified: "2026-05-09"
+  last_verified: "2026-05-10"
   check_rule: >-
     Calculate from first professional role start_date in experience.yml.
     CoreNetworks started 2023-10. If today's year minus 2023 >= 2, suggest updating to "2+ years", etc.
@@ -21,7 +21,7 @@
   description: "Degree status text in the About section card"
   location: _includes/about.html, line ~18
   value: "B.Sc. in Computer Science, 2024"
-  last_verified: "2026-05-09"
+  last_verified: "2026-05-10"
   check_rule: >-
     Check education.yml — degree end_date is 2024-10 and it is completed.
     If current date > end_date, this should no longer say 'Expected'.
@@ -31,15 +31,15 @@
   description: "Copyright year in the footer"
   location: _includes/footer.html, line ~13
   value: "2026"
-  last_verified: "2026-05-09"
+  last_verified: "2026-05-10"
   check_rule: >-
     Should match the current calendar year. If today's year > value, flag as stale.
 
 - id: summary_seeking
   description: "Summary says 'Currently seeking opportunities' — implies job hunting"
   location: _knowledge_base/data/about.yml (summary field)
-  value: "DevOps & Security Engineer with hands-on experience in cloud infrastructure, CI/CD pipelines, and Kubernetes. Currently pursuing an MSc in Information Systems Development and Security at AUEB, with a growing focus on penetration testing, secure networks, and security engineering."
-  last_verified: "2026-05-09"
+  value: "DevOps & Security Engineer with hands-on experience operating Azure and Kubernetes infrastructure, building CI/CD systems, and supporting cloud-native workloads. Strong systems and software engineering foundation in Linux, networking, backend development, and distributed systems, with a growing specialization in security engineering, secure infrastructure, and offensive security."
+  last_verified: "2026-05-10"
   check_rule: >-
     Verify against experience.yml — if there is a current job (end_date: current),
     this phrasing may be misleading. Ask user if the summary still reflects intent.
@@ -48,7 +48,7 @@
   description: "tools_technologies.yml says 'Preparing for and obtained CKA' — contradictory phrasing"
   location: _knowledge_base/data/tools_technologies.yml (Kubernetes entry)
   value: "Holds CKA certification"
-  last_verified: "2026-05-09"
+  last_verified: "2026-05-10"
   check_rule: >-
     Since CKA is listed in certifications.yml as obtained, remove 'Preparing for'.
     Should read "Holds CKA certification." — ask user to confirm correction.
@@ -57,7 +57,7 @@
   description: "Bio says 'expanding my expertise in Azure and Kubernetes' — may be stale"
   location: _knowledge_base/data/about.yml (bio.long field), _includes/about.html
   value: "penetration testing, secure networks, and security engineering"
-  last_verified: "2026-05-09"
+  last_verified: "2026-05-10"
   check_rule: >-
     Check career_focus in about.yml. If focus has shifted, ask user whether bio still reflects
     current learning direction.
@@ -66,7 +66,7 @@
   description: "MSc degree end_date is 'current' — must be updated when degree is completed"
   location: _knowledge_base/data/education.yml (MSc entry)
   value: "current"
-  last_verified: "2026-05-09"
+  last_verified: "2026-05-10"
   check_rule: >-
     When MSc end_date is updated from 'current' to a real date, also update the About
     section education card and bio to reflect completion. Flag if end_date is still

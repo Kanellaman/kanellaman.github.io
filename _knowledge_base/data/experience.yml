@@ -8,21 +8,17 @@
   cv: true
   responsibilities:
     - >-
-      Cloud Infrastructure Management: Managing and maintaining cloud resources
-      primarily on Microsoft Azure, including networking, compute, storage, and
-      security configurations.
+      Operated Azure cloud infrastructure across networking, compute, storage, and security —
+      configuring VNets, NSGs, Key Vault, managed identities, and role-based access controls.
     - >-
-      Kubernetes (AKS): Operating and maintaining Azure Kubernetes Service (AKS)
-      clusters, including deployments, scaling, upgrades, and troubleshooting of
-      microservices.
+      Managed AKS cluster lifecycle including node pool scaling, version upgrades, workload
+      deployments, rolling updates, and production troubleshooting of containerised microservices.
     - >-
-      CI/CD Pipelines: Designing and maintaining CI/CD pipelines using GitHub
-      Actions, Azure DevOps Pipelines, and occasionally other tools for automated
-      builds, tests, and deployments.
+      Built and maintained CI/CD pipelines with GitHub Actions and Azure DevOps Pipelines,
+      automating build, test, and deployment workflows across multiple environments.
     - >-
-      Monitoring & Observability: Implementing and managing monitoring/logging
-      solutions with the Elastic Stack (ELK), including custom dashboards, alerting
-      rules, and log retention strategies.
+      Deployed and configured Elastic Stack (ELK) for centralised log ingestion, built custom
+      dashboards, defined alerting rules, and tuned log retention strategies across services.
 
 - company: CoreNetworks
   role: DevOps Engineer
@@ -32,11 +28,11 @@
   cv: true
   responsibilities:
     - >-
-      Developed and maintained backend systems using Python and Django, ensuring
-      high performance, reliability, and scalability.
+      Developed and maintained Python/Django backend services, implementing REST APIs and
+      data models for production workloads.
     - >-
-      Implemented DevOps best practices, including CI/CD pipelines, automated
-      testing, and scripting using Bash and Python.
+      Built CI/CD workflows integrating GitHub Actions and the GitHub API, automating
+      build, test, and deployment pipelines from commit to production.
     - >-
-      Oversaw the entire application development lifecycle, from development to
-      deployment, using CI/CD pipelines integrated with the GitHub API.
+      Automated operational tasks using Bash and Python scripts, reducing manual overhead
+      across development and deployment workflows.
