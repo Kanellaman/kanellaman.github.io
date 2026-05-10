@@ -77,12 +77,36 @@ Visual changes also go through `@planner`, which delegates to `@site-design`:
 
 `@site-design` will NOT make bold visual decisions on its own — it always confirms via diagram first.
 
+### Pushing & Deploying
+
+All pushes go through the **`@deploy`** agent, which handles the full push-to-deploy lifecycle:
+
+```
+@deploy "push and deploy"
+  └── 1. Fetch origin/master, check for divergence
+  └── 2. Validate workflow YAML + critical files
+  └── 3. Show push summary → ask for confirmation
+  └── 4. Push to origin/master
+  └── 5. Monitor GitHub Actions run → report status
+```
+
+The deploy agent also has a **diagnosis mode** for failed pipelines:
+
+```
+@deploy "why did the last deploy fail?"
+  └── 1. Fetch failed run logs via gh CLI
+  └── 2. Identify the failed step and root cause
+  └── 3. Apply fix (workflow YAML, Gemfile, etc.)
+  └── 4. Re-push with user confirmation
+```
+
 ### Direct Agent Usage (advanced)
 You can invoke sub-agents directly if you know exactly what you need:
 - `@knowledge-base` — only update YAML data, no propagation
 - `@site-update` — only sync existing YAML → HTML content
 - `@site-design` — only CSS / layout / responsive / visual changes
 - `@cv-typst` — only regenerate the CV PDF
+- `@deploy` — push to origin, check deployment status, or diagnose pipeline failures
 
 ### CV Changes
 1. Update `_knowledge_base/data/` YAML files (or let `@planner` handle it)

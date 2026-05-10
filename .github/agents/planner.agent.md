@@ -1,6 +1,6 @@
 ---
 description: "Use when: making any content change to the portfolio — adding experience, updating skills, adding certs, changing projects, updating bio, or any modification that should be reflected on the website and/or CV. Also use for visual/layout/styling changes (delegated to site-design). This is the main entry point for all changes. Orchestrates knowledge-base, site-update, site-design, and cv-typst agents."
-agents: [knowledge-base, site-update, site-design, cv-typst]
+agents: [knowledge-base, site-update, site-design, cv-typst, deploy]
 argument-hint: "Describe what changed (e.g. 'new job at X, got CKA cert, add Helm skill', or 'rearrange the skills section layout')"
 ---
 
