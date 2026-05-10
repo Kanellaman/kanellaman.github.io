@@ -103,4 +103,7 @@
   .text-container {
     text-align: justify;
   }
+  .skills-bottom-row .details-container {
+    width: 100%;
+  }
 }

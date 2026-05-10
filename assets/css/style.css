@@ -314,12 +314,15 @@ section {
 }
 
 .mask-image {
-    display: block;
-    height: 100%; /* Ensure the image covers the container fully */
-    object-fit: cover; /* Maintain aspect ratio and cover the container */
-    mask-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%);
-    -webkit-mask-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%);    
-    transform: rotate(-90deg); /* Rotate the image 90 degrees clockwise */
+  display: block;
+  height: 100%;
+  /* Ensure the image covers the container fully */
+  object-fit: cover;
+  /* Maintain aspect ratio and cover the container */
+  mask-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%);
+  -webkit-mask-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%);
+  transform: rotate(-90deg);
+  /* Rotate the image 90 degrees clockwise */
 
 }
 
@@ -340,6 +343,16 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+.skills-bottom-row {
+  justify-content: center;
+}
+
+.skills-bottom-row .details-container {
+  flex: 0 0 auto;
+  width: calc(66.666% - 1rem);
+  min-width: 260px;
 }
 
 .article-container {
@@ -445,7 +458,8 @@ footer p {
 #certifications {
   height: 100vh;
   text-align: center;
-  position: relative; /* Ensure this container is the positioning reference for the arrow */
+  position: relative;
+  /* Ensure this container is the positioning reference for the arrow */
 
   padding-top: 3rem;
 }
@@ -454,20 +468,25 @@ footer p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3rem; /* Adjust spacing between rows */
-  margin: 0; /* Ensure no extra margin is added */
+  gap: 3rem;
+  /* Adjust spacing between rows */
+  margin: 0;
+  /* Ensure no extra margin is added */
   padding-top: 1rem;
 }
 
 .cert-main {
-  margin-bottom: 1rem; /* Reduce space below the main certification */
+  margin-bottom: 1rem;
+  /* Reduce space below the main certification */
 }
 
 .cert-row {
   display: flex;
   justify-content: center;
-  gap: 3rem; /* Adjust gap between sub-certifications */
-  margin: 0; /* Remove any unnecessary margin */
+  gap: 3rem;
+  /* Adjust gap between sub-certifications */
+  margin: 0;
+  /* Remove any unnecessary margin */
   padding: 0;
 }
 
@@ -478,13 +497,15 @@ body {
 }
 
 .cert-img-main {
-  width: 200px; /* Increased size for the main certification */
+  width: 200px;
+  /* Increased size for the main certification */
   height: auto;
 }
 
 .cert-title {
   margin-top: 0.5rem;
-  font-size: 1.4rem; /* Slightly larger font for the main certification title */
+  font-size: 1.4rem;
+  /* Slightly larger font for the main certification title */
   font-weight: bold;
 }
 
@@ -494,12 +515,14 @@ body {
 }
 
 .cert-img-sub {
-  width: 130px; /* Increased size for sub-certifications */
+  width: 130px;
+  /* Increased size for sub-certifications */
   height: auto;
 }
 
 .cert-title {
-  font-size: 1.1rem; /* Slightly larger font for sub-certification titles */
+  font-size: 1.1rem;
+  /* Slightly larger font for sub-certification titles */
 }
 
 /* Pyramid Structure */
@@ -508,23 +531,29 @@ body {
 }
 
 .cert-row {
-  margin-top: -20px; /* Reduce overlap for a cleaner look */
+  margin-top: -20px;
+  /* Reduce overlap for a cleaner look */
 }
 
 
 /* Mobile view for certs */
 @media (max-width: 768px) {
   .cert-row {
-    flex-direction: column; /* Stack sub-certifications in a column */
-    align-items: center; /* Center items for a clean look */
-    gap: 1.5rem; /* Adjust spacing between items */
+    flex-direction: column;
+    /* Stack sub-certifications in a column */
+    align-items: center;
+    /* Center items for a clean look */
+    gap: 1.5rem;
+    /* Adjust spacing between items */
   }
 
   .cert-sub {
-    width: 100%; /* Allow items to take the full width */
+    width: 100%;
+    /* Allow items to take the full width */
   }
 
   .cert-img-sub {
-    width: 100px; /* Adjust image size for better mobile fit */
+    width: 100px;
+    /* Adjust image size for better mobile fit */
   }
 }
