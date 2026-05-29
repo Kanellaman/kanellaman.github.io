@@ -227,14 +227,6 @@ DevOps & Security Engineer with hands-on experience operating Azure and Kubernet
 )
 
 // ════════════════════════════════════════════════════════════════════════════
-// PROJECTS
-// ════════════════════════════════════════════════════════════════════════════
-#section("Projects")
-
-*MyShell* — #link("https://github.com/Kanellaman/mysh-A-Bash-like-Shell-Implementation")[GitHub Link]
-Unix-style shell implemented in C, supporting pipes, I/O redirection, background process execution, signal handling, and job control. Demonstrates systems programming depth at the OS/kernel interface level, implementing standard Unix shell behaviour from scratch.
-
-// ════════════════════════════════════════════════════════════════════════════
 // LANGUAGES
 // ════════════════════════════════════════════════════════════════════════════
 #section("Languages")
