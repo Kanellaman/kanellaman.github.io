@@ -135,7 +135,9 @@ Security Engineer in the Offensive Security team at Performance Technologies, wi
   "Sep 2026 – Present",
   "Athens, Greece · Offensive Security team",
   (
-    "Perform penetration testing and red teaming across internal and external engagements, malicious guest simulation, and Wi-Fi testing.",
+    "Participate in internal and external penetration testing engagements.",
+    "Perform malicious guest simulations and Wi-Fi penetration testing.",
+    "Contribute to red teaming engagements as part of the Offensive Security team.",
   )
 )
 
@@ -147,10 +149,8 @@ Security Engineer in the Offensive Security team at Performance Technologies, wi
   "Oct 2024 – Aug 2026",
   "Athens, Greece",
   (
-    "Operated Azure cloud infrastructure across networking, compute, storage, and security — configuring VNets, NSGs, Key Vault, managed identities, and role-based access controls.",
-    "Managed AKS cluster lifecycle including node pool scaling, version upgrades, workload deployments, rolling updates, and production troubleshooting of containerised microservices.",
-    "Built and maintained CI/CD pipelines with GitHub Actions and Azure DevOps Pipelines, automating build, test, and deployment workflows across multiple environments.",
-    "Deployed and configured Elastic Stack (ELK) for centralised log ingestion, built custom dashboards, defined alerting rules, and tuned log retention strategies across services.",
+    "Operated Azure infrastructure and managed AKS clusters, supporting networking, security, deployments, scaling, and troubleshooting.",
+    "Built CI/CD pipelines and configured Elastic Stack observability, including log ingestion, dashboards, and alerting.",
   )
 )
 
@@ -212,36 +212,36 @@ Security Engineer in the Offensive Security team at Performance Technologies, wi
 #cert_entry_nolink(
   "eJPT",
   "INE Security",
-  "Acquired Dec 2026"
+  "2026"
 )
 #cert_entry(
   "Certified Kubernetes Administrator (CKA)",
   "CNCF / Linux Foundation",
-  "2025",
+  "June 2025",
   "https://www.credly.com/badges/1ec6495d-b9e4-4c78-ac68-b08f13472aa2/public_url"
 )
 #cert_entry(
   "Azure Administrator Associate (AZ-104)",
   "Microsoft",
-  "2025",
+  "January 2025",
   "https://learn.microsoft.com/api/credentials/share/en-us/KonstantinosKanellakis-7590/453C597D25F35E0D?sharingId=9443E5488F83DC5A"
 )
 #cert_entry(
   "GitHub Foundations",
   "GitHub",
-  "2025",
+  "March 2025",
   "https://www.credly.com/badges/7253bd7f-0758-4403-8a37-af53e6a69d0e/linked_in_profile"
 )
 #cert_entry(
   "Security, Compliance, and Identity Fundamentals (SC-900)",
   "Microsoft",
-  "2024",
+  "November 2024",
   "https://learn.microsoft.com/api/credentials/share/en-us/KonstantinosKanellakis-7590/CB65591A4C4B30A3?sharingId=9443E5488F83DC5A"
 )
 #cert_entry(
   "Azure Fundamentals (AZ-900)",
   "Microsoft",
-  "2024",
+  "October 2024",
   "https://learn.microsoft.com/api/credentials/share/en-us/KonstantinosKanellakis-7590/86765207ADE2618B?sharingId=9443E5488F83DC5A"
 )
 

@@ -8,9 +8,9 @@
   site: true
   cv: true
   responsibilities:
-    - >-
-      Perform penetration testing and red teaming across internal and external engagements,
-      malicious guest simulation, and Wi-Fi testing.
+    - Participate in internal and external penetration testing engagements.
+    - Perform malicious guest simulations and Wi-Fi penetration testing.
+    - Contribute to red teaming engagements as part of the Offensive Security team.
 
 - company: Performance Technologies S.A.
   city: Athens
