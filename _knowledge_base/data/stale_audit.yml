@@ -11,11 +11,11 @@
 - id: experience_years
   description: "Years of experience shown in the About section card"
   location: _includes/about.html, line ~13
-  value: "2+ years"
-  last_verified: "2026-05-10"
+  value: "3+ years"
+  last_verified: "2026-11-25"
   check_rule: >-
-    Calculate from first professional role start_date in experience.yml.
-    CoreNetworks started 2023-10. If today's year minus 2023 >= 2, suggest updating to "2+ years", etc.
+    Calculate completed years since the first professional role start_date in experience.yml,
+    accounting for the month and day. CoreNetworks started 2023-10. Update when another year completes.
 
 - id: education_status
   description: "Degree status text in the About section card"
@@ -36,13 +36,12 @@
     Should match the current calendar year. If today's year > value, flag as stale.
 
 - id: summary_seeking
-  description: "Summary says 'Currently seeking opportunities' — implies job hunting"
+  description: "Professional summary reflects current role and career direction"
   location: _knowledge_base/data/about.yml (summary field)
-  value: "DevOps & Security Engineer with hands-on experience operating Azure and Kubernetes infrastructure, building CI/CD systems, and supporting cloud-native workloads. Strong systems and software engineering foundation in Linux, networking, backend development, and distributed systems, with a growing specialization in security engineering, secure infrastructure, and offensive security."
-  last_verified: "2026-05-10"
+  value: "Security Engineer in the Offensive Security team at Performance Technologies, with experience participating in penetration testing and red teaming engagements. Also brings cloud and DevOps experience across Azure, Kubernetes, CI/CD systems, and cloud-native workloads, with a foundation in Linux, networking, backend development, and distributed systems."
+  last_verified: "2026-11-25"
   check_rule: >-
-    Verify against experience.yml — if there is a current job (end_date: current),
-    this phrasing may be misleading. Ask user if the summary still reflects intent.
+    Verify the summary against the current roles in experience.yml and the bio in about.yml.
 
 - id: tools_technologies_cka_phrasing
   description: "tools_technologies.yml says 'Preparing for and obtained CKA' — contradictory phrasing"
@@ -54,13 +53,13 @@
     Should read "Holds CKA certification." — ask user to confirm correction.
 
 - id: about_bio_learning_focus
-  description: "Bio says 'expanding my expertise in Azure and Kubernetes' — may be stale"
+  description: "Bio reflects current offensive security and cloud/DevOps work"
   location: _knowledge_base/data/about.yml (bio.long field), _includes/about.html
-  value: "penetration testing, secure networks, and security engineering"
-  last_verified: "2026-05-10"
+  value: "Security Engineer in the Offensive Security team at Performance Technologies since September 2026, contributing to penetration testing and red teaming with prior cloud and DevOps experience"
+  last_verified: "2026-11-25"
   check_rule: >-
-    Check career_focus in about.yml. If focus has shifted, ask user whether bio still reflects
-    current learning direction.
+    Check the current roles in experience.yml and the bio in about.yml and _includes/about.html.
+    Confirm that the bio reflects current offensive security work and prior cloud/DevOps experience.
 
 - id: msc_status
   description: "MSc degree end_date is 'current' — must be updated when degree is completed"
@@ -80,3 +79,21 @@
   check_rule: >-
     Goethe-Institut may issue digital credentials or verification links in future.
     Ask user if a verification URL is available to add.
+
+- id: offensive_security_role
+  description: "Current Security Engineer role and start date"
+  location: _knowledge_base/data/experience.yml, _knowledge_base/data/about.yml, _knowledge_base/data/learning_timeline.yml
+  value: "Security Engineer, Offensive Security team at Performance Technologies S.A., since 2026-09; current"
+  last_verified: "2026-11-25"
+  check_rule: >-
+    Confirm the role, team, start date, and current status against experience.yml.
+    Update the bio and career timeline if the role changes.
+
+- id: ejpt_pending_issuance
+  description: "eJPT exam passed; certificate pending issuance"
+  location: _knowledge_base/data/certifications.yml (eJPT entry)
+  value: "Exam passed; certificate pending issuance, expected 2026-12"
+  last_verified: "2026-11-25"
+  check_rule: >-
+    Confirm whether the certificate has been issued, especially after 2026-12.
+    Do not describe it as awarded or add verification links without confirmation.

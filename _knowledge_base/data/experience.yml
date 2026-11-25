@@ -1,9 +1,23 @@
 - company: Performance Technologies S.A.
   city: Athens
   country: Greece
+  role: Security Engineer
+  team: Offensive Security
+  start_date: "2026-09"
+  end_date: current
+  site: true
+  cv: true
+  responsibilities:
+    - >-
+      Perform penetration testing and red teaming across internal and external engagements,
+      malicious guest simulation, and Wi-Fi testing.
+
+- company: Performance Technologies S.A.
+  city: Athens
+  country: Greece
   role: Cloud DevOps Engineer
   start_date: "2024-10"
-  end_date: current
+  end_date: "2026-08"
   site: true
   cv: true
   responsibilities:

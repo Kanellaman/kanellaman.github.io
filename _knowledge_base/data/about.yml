@@ -14,38 +14,42 @@ contact:
   cryptohack: https://cryptohack.org/user/kanellam/
 
 summary: >-
-  DevOps & Security Engineer with hands-on experience operating Azure and Kubernetes infrastructure,
-  building CI/CD systems, and supporting cloud-native workloads. Strong systems and software
-  engineering foundation in Linux, networking, backend development, and distributed systems, with a
-  growing specialization in security engineering, secure infrastructure, and offensive security.
+  Security Engineer in the Offensive Security team at Performance Technologies, with experience
+  participating in penetration testing and red teaming engagements. Also brings cloud and DevOps
+  experience across Azure, Kubernetes, CI/CD systems, and cloud-native workloads, with a foundation
+  in Linux, networking, backend development, and distributed systems.
 
 bio:
   short: >-
-    Cloud DevOps Engineer at Performance Technologies and MSc student in Information Security at
-    AUEB. Operating Azure infrastructure, AKS clusters, CI/CD pipelines, and ELK observability,
-    with a growing focus on security engineering and offensive security.
+    Security Engineer in the Offensive Security team at Performance Technologies since September
+    2026, and MSc student in Information Security at AUEB. Working on penetration testing and
+    red teaming, with prior cloud and DevOps experience across Azure infrastructure, AKS clusters,
+    CI/CD pipelines, and ELK observability.
   long: >-
     I graduated with a B.Sc. in Computer Science from the National and Kapodistrian University of
     Athens and am currently pursuing an MSc in Information Systems Development and Security at AUEB.
-    I work as a Cloud DevOps Engineer at Performance Technologies, operating Azure infrastructure,
-    managing AKS clusters, building CI/CD pipelines, and configuring ELK-based observability. My
-    background in Linux, systems programming, networking, and distributed systems gives me the
-    engineering foundations I am now extending into security — penetration testing, vulnerability
-    assessment, secure network design, and cryptography — through MSc coursework, TryHackMe, and
-    CryptoHack.
+    Since September 2026, I have been a Security Engineer in the Offensive Security team at
+    Performance Technologies, contributing to penetration testing and red teaming engagements,
+    including internal and external assessments, malicious guest simulation, and Wi-Fi testing.
+    Previously, I worked as a Cloud DevOps Engineer at Performance Technologies, operating Azure
+    infrastructure, managing AKS clusters, building CI/CD pipelines, and configuring ELK-based
+    observability. My background in Linux, systems programming, networking, and distributed
+    systems supports my security work and MSc coursework in areas including vulnerability
+    assessment, secure network design, and cryptography.
 
-title: DevOps & Security Engineer
+title: Security Engineer | Offensive Security
 
 # Career focus — guides agent curation decisions for site and CV
-target_role: DevOps / Platform / Cloud Security Engineer
+target_role: Offensive Security / Penetration Testing Engineer
 career_focus:
+  - Offensive security & penetration testing
+  - Security engineering & red teaming
   - Azure cloud infrastructure & platform engineering
   - AKS / Kubernetes lifecycle & operations
   - CI/CD & automation pipelines
   - Infrastructure as Code (Terraform, Bicep)
   - Monitoring, observability & ELK
-  - Security engineering & secure infrastructure
-  - Offensive security & penetration testing
+  - Secure infrastructure
 
 languages:
   - language: Greek

@@ -1,3 +1,11 @@
+- name: eJPT
+  issuer: INE Security
+  status: Exam passed; certificate pending issuance
+  expected_issuance: "2026-12"
+  badge_asset: eJPT.svg
+  site: true
+  cv: true
+
 - name: Certified Kubernetes Administrator (CKA)
   issuer: CNCF / Linux Foundation
   date: "2025"

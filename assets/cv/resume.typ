@@ -23,10 +23,12 @@
 
 // ── Section heading ──────────────────────────────────────────────────────────
 #let section(title) = {
-  v(0.6em)
-  text(fill: navy, weight: "bold", size: 11pt, upper(title))
-  line(length: 100%, stroke: 0.5pt + navy)
-  v(0.2em)
+  block(sticky: true)[
+    #v(0.6em)
+    #text(fill: navy, weight: "bold", size: 11pt, upper(title))
+    #line(length: 100%, stroke: 0.5pt + navy)
+    #v(0.2em)
+  ]
 }
 
 // ── Job entry ────────────────────────────────────────────────────────────────
@@ -92,7 +94,7 @@
 #align(center)[
   #text(size: 22pt, weight: "bold", fill: navy)[Konstantinos Kanellakis]
   \
-  #text(size: 11pt, fill: muted)[DevOps & Security Engineer]
+  #text(size: 11pt, fill: muted)[Security Engineer | Offensive Security & Cloud]
   \
   #v(0.3em)
   #set text(size: 9pt)
@@ -120,7 +122,7 @@
 // SUMMARY
 // ════════════════════════════════════════════════════════════════════════════
 #section("Summary")
-DevOps & Security Engineer with hands-on experience operating Azure and Kubernetes infrastructure, building CI/CD systems, and supporting cloud-native workloads. Strong systems and software engineering foundation in Linux, networking, backend development, and distributed systems, with a growing specialization in security engineering, secure infrastructure, and offensive security.
+Security Engineer in the Offensive Security team at Performance Technologies, with prior cloud and DevOps experience. Experienced in Azure and Kubernetes infrastructure, CI/CD systems, and cloud-native workloads, with a foundation in Linux, networking, backend development, and distributed systems.
 
 // ════════════════════════════════════════════════════════════════════════════
 // EXPERIENCE
@@ -129,8 +131,20 @@ DevOps & Security Engineer with hands-on experience operating Azure and Kubernet
 
 #job(
   "Performance Technologies S.A.",
+  "Security Engineer",
+  "Sep 2026 – Present",
+  "Athens, Greece · Offensive Security team",
+  (
+    "Perform penetration testing and red teaming across internal and external engagements, malicious guest simulation, and Wi-Fi testing.",
+  )
+)
+
+#v(0.4em)
+
+#job(
+  "Performance Technologies S.A.",
   "Cloud DevOps Engineer",
-  "Oct 2024 – Present",
+  "Oct 2024 – Aug 2026",
   "Athens, Greece",
   (
     "Operated Azure cloud infrastructure across networking, compute, storage, and security — configuring VNets, NSGs, Key Vault, managed identities, and role-based access controls.",
@@ -195,6 +209,11 @@ DevOps & Security Engineer with hands-on experience operating Azure and Kubernet
 // ════════════════════════════════════════════════════════════════════════════
 #section("Certifications")
 
+#cert_entry_nolink(
+  "eJPT",
+  "INE Security",
+  "Acquired Dec 2026"
+)
 #cert_entry(
   "Certified Kubernetes Administrator (CKA)",
   "CNCF / Linux Foundation",
