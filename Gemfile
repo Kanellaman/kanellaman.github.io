@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby '3.1.3'
+ruby '3.1.7'
 
 gem "minima", "~> 2.5"
 
