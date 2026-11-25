@@ -212,7 +212,7 @@ Security Engineer in the Offensive Security team at Performance Technologies, wi
 #cert_entry_nolink(
   "eJPT",
   "INE Security",
-  "2026"
+  "December 2026"
 )
 #cert_entry(
   "Certified Kubernetes Administrator (CKA)",
